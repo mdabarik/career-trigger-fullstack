@@ -38,7 +38,9 @@ To explore the source code for each part of the system:
 
 ## Full-Stack Structure
 
+``` bash
 career-trigger/
 │
 ├── career-trigger-server/    # Node.js, Express, MongoDB, JWT, SOLID
 └── career-trigger-client/    # React.js, Redux, Tailwind, Modular UI
+```
