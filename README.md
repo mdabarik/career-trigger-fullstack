@@ -1,4 +1,4 @@
-# Career Trigger — Full-Stack Career Community Platform
+# Career Trigger — FulL Stack
 
 ---
 
