@@ -1,47 +1,43 @@
-# Career Trigger — FulL Stack
+# Career Trigger — Full Stack
 
 ---
 
-## Repository Frontend & BAckend
+## Repository Frontend & Backend
 
-To explore the source code for each part of the system, please use the links below:
+To explore the source code for each part of the system:
 
-* **Frontend Repository:** [Career Trigger Client](https://github.com/mdabarik/career-trigger-client)
-* **Backend Repository:** [Career Trigger Server](https://github.com/mdabarik/career-trigger-server)
+* Frontend: https://github.com/mdabarik/career-trigger-client
+* Backend:  https://github.com/mdabarik/career-trigger-server
 
 ---
 
 ## System Architecture & Principles
 
-The entire platform is engineered with a **"Clean Code"** first mindset. Both the client and server follow industry-standard patterns:
-
-
-* **Decoupled Architecture:** Frontend and Backend are completely separated, communicating through a stateless RESTful API.
-* **Design Patterns:** Implementation of **SOLID**, **Singleton**, and **Layered Architecture** for better maintainability.
-* **Scalability:** The backend uses a modular folder structure, allowing for easy expansion of features (YAGNI & KISS compliant).
-* **Role-Based Security (RBAC):** Integrated security layer that controls access levels for Admins, Editors, and Users.
+* Decoupled Architecture: Frontend & Backend separated, RESTful API communication
+* Design Patterns: SOLID, Singleton, Layered Architecture
+* Scalability: Modular folder structure (KISS & YAGNI)
+* Role-Based Security (RBAC): Admin, Editor, User access control
 
 ---
 
-## 🛠️ Technical Overview
+## Technical Overview
 
-### **Backend (Node.js & Express)**
-* **Database:** MongoDB via Mongoose.
-* **Auth:** JWT (Access & Refresh Tokens) with Bcrypt hashing.
-* **Validation:** Schema-driven validation (Zod/Joi).
-* **Key Features:** Automated status updates, post analytics, and user role management.
+### Backend (Node.js & Express)
+* Database: MongoDB (Mongoose)
+* Auth: JWT (Access & Refresh) + Bcrypt
+* Validation: Zod / Joi
+* Features: Status automation, post analytics, role management
 
-### **Frontend (React.js & Tailwind)**
-* **State Management:** Redux Toolkit for global state and RTK Query for data fetching.
-* **Styling:** Utility-first CSS using Tailwind CSS for a modern, responsive UI.
-* **Performance:** Code-splitting and lazy loading for optimized load times.
-* **UI Experience:** Interactive dashboards, real-time input validation, and optimistic UI updates.
+### Frontend (React.js & Tailwind)
+* State: Redux Toolkit + RTK Query
+* Styling: Tailwind CSS (utility-first)
+* Performance: Code-splitting, lazy loading
+* UI: Interactive dashboards, real-time validation, optimistic updates
 
 ---
 
-## 📁 Full-Stack
+## Full-Stack Structure
 
-```text
 career-trigger/
 │
 ├── career-trigger-server/    # Node.js, Express, MongoDB, JWT, SOLID
