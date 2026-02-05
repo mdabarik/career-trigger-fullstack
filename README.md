@@ -29,7 +29,7 @@ To explore the source code for each part of the system:
 * Features: Status automation, post analytics, role management
 
 ### Frontend (React.js & Tailwind)
-* State: Redux Toolkit + RTK Query
+* State: RTK Query
 * Styling: Tailwind CSS (utility-first)
 * Performance: Code-splitting, lazy loading
 * UI: Interactive dashboards, real-time validation, optimistic updates
